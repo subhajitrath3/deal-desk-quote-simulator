@@ -1,6 +1,6 @@
 import { Catalog, QuoteCalculateRequest, QuoteCalculationResponse, QuoteResponse, QuoteListItem, QuoteStatus } from '../types';
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000').replace(/\/+$/, '');
 
 export async function fetchCatalog(): Promise<Catalog> {
     const res = await fetch(`${API_BASE}/api/catalog`);
