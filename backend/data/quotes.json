@@ -1,0 +1,189 @@
+[
+  {
+    "tier": "GROWTH",
+    "subtotal": 120.0,
+    "discount_amount": 0.12,
+    "total": 119.88,
+    "approval_required": false,
+    "approval_reasons": [],
+    "customer_name": "Acme Corporation",
+    "seats": 10,
+    "line_items": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "unit_price": 120.0,
+        "quantity": 1,
+        "line_total": 120.0
+      }
+    ],
+    "discount_pct": 0.1,
+    "annual_commitment": false,
+    "id": "2850277b-870a-41b2-ab16-ad7a2dd919ed",
+    "status": "approved",
+    "created_at": "2026-10-07T16:24:38.613399Z",
+    "updated_at": "2026-10-07T17:41:52.092582+00:00"
+  },
+  {
+    "tier": "GROWTH",
+    "subtotal": 1500.0,
+    "discount_amount": 225.0,
+    "total": 1275.0,
+    "approval_required": true,
+    "approval_reasons": [
+      "annual_commitment_discount_above_10_percent"
+    ],
+    "customer_name": "Hello World",
+    "seats": 10,
+    "line_items": [
+      {
+        "sku": "AGENT-AUTOMATE",
+        "name": "Agent Automate",
+        "unit_price": 150.0,
+        "quantity": 10,
+        "line_total": 1500.0
+      }
+    ],
+    "discount_pct": 15.0,
+    "annual_commitment": true,
+    "id": "0a55ba02-8aa5-4832-867a-b5fd2e12b432",
+    "status": "approved",
+    "created_at": "2026-10-07T17:32:54.487800Z",
+    "updated_at": "2026-10-07T17:42:15.589376+00:00"
+  },
+  {
+    "tier": "ENTERPRISE",
+    "subtotal": 1120.0,
+    "discount_amount": 224.0,
+    "total": 896.0,
+    "approval_required": true,
+    "approval_reasons": [
+      "discount_above_15_percent",
+      "annual_commitment_discount_above_10_percent"
+    ],
+    "customer_name": "Dev tools",
+    "seats": 100,
+    "line_items": [
+      {
+        "sku": "AGENT-ANALYTICS",
+        "name": "Agent Analytics",
+        "unit_price": 80.0,
+        "quantity": 14,
+        "line_total": 1120.0
+      }
+    ],
+    "discount_pct": 20.0,
+    "annual_commitment": true,
+    "id": "ff2c9b7c-1a62-4542-8fa1-5b6690874895",
+    "status": "approved",
+    "created_at": "2026-10-07T18:09:07.788368Z",
+    "updated_at": "2026-10-07T18:10:58.364182+00:00"
+  },
+  {
+    "tier": "GROWTH",
+    "subtotal": 51800.0,
+    "discount_amount": 7770.0,
+    "total": 44030.0,
+    "approval_required": true,
+    "approval_reasons": [
+      "total_above_25000"
+    ],
+    "customer_name": "trial 3",
+    "seats": 45,
+    "line_items": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "unit_price": 120.0,
+        "quantity": 15,
+        "line_total": 1800.0
+      },
+      {
+        "sku": "ONBOARDING",
+        "name": "Implementation",
+        "unit_price": 2500.0,
+        "quantity": 20,
+        "line_total": 50000.0
+      }
+    ],
+    "discount_pct": 15.0,
+    "annual_commitment": false,
+    "id": "2694702b-ab98-4b5c-a925-d1b77bc18b35",
+    "status": "approved",
+    "created_at": "2026-10-07T19:05:05.153026Z",
+    "updated_at": "2026-10-07T19:05:43.950574+00:00"
+  },
+  {
+    "tier": "ENTERPRISE",
+    "subtotal": 13420.0,
+    "discount_amount": 1610.4,
+    "total": 11809.6,
+    "approval_required": false,
+    "approval_reasons": [],
+    "customer_name": "Trial 4",
+    "seats": 52,
+    "line_items": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "unit_price": 120.0,
+        "quantity": 1,
+        "line_total": 120.0
+      },
+      {
+        "sku": "AGENT-ANALYTICS",
+        "name": "Agent Analytics",
+        "unit_price": 80.0,
+        "quantity": 10,
+        "line_total": 800.0
+      },
+      {
+        "sku": "ONBOARDING",
+        "name": "Implementation",
+        "unit_price": 2500.0,
+        "quantity": 5,
+        "line_total": 12500.0
+      }
+    ],
+    "discount_pct": 12.0,
+    "annual_commitment": false,
+    "id": "e70f4963-85ca-4bd2-93fd-4052d1f7195d",
+    "status": "approved",
+    "created_at": "2026-10-07T19:13:32.062035Z",
+    "updated_at": "2026-10-07T19:14:10.654096+00:00"
+  },
+  {
+    "tier": "GROWTH",
+    "subtotal": 2160.0,
+    "discount_amount": 432.0,
+    "total": 1728.0,
+    "approval_required": true,
+    "approval_reasons": [
+      "discount_above_15_percent"
+    ],
+    "customer_name": "Trial 5",
+    "seats": 20,
+    "line_items": [
+      {
+        "sku": "AGENT-CORE",
+        "name": "Agent Core",
+        "unit_price": 120.0,
+        "quantity": 14,
+        "line_total": 1680.0
+      },
+      {
+        "sku": "AGENT-ANALYTICS",
+        "name": "Agent Analytics",
+        "unit_price": 80.0,
+        "quantity": 6,
+        "line_total": 480.0
+      }
+    ],
+    "discount_pct": 20.0,
+    "annual_commitment": false,
+    "id": "f4977871-8462-4c33-b4b6-d13894334744",
+    "status": "rejected",
+    "created_at": "2026-10-07T19:15:17.730299Z",
+    "updated_at": "2026-10-07T19:15:29.385595+00:00"
+  }
+]
