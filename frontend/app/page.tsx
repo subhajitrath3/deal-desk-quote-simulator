@@ -150,7 +150,7 @@ export default function QuoteBuilder() {
           <AlertCircle /> Catalog Unavailable
         </h2>
         <p style={{ marginTop: '1rem', color: 'var(--ink-secondary)' }}>
-          {catalogError}. Ensure the backend is running at <code style={{ fontFamily: 'monospace' }}>localhost:8000</code>.
+          {catalogError}. Ensure the backend is reachable at <code style={{ fontFamily: 'monospace' }}>{process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'}</code>.
         </p>
       </div>
     );
